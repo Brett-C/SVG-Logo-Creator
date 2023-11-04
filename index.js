@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs')
-const Circle = require('./lib/shapes');
+const {Circle, Square, Triangle} = require('./lib/shapes');
+
 const { default: generate } = require('@babel/generator');
 
 const shapeQuestion = 'What shape would you like your logo to be?'
@@ -45,8 +46,14 @@ function logoCreator() {
             console.log(answer.characters)
             console.log(answer.text_color)
             let circle = new Circle(answer.shape_color, answer.characters, answer.text_color)
+            let square = new Square(answer.shape_color, answer.characters, answer.text_color)
+            let triangle = new Triangle(answer.shape_color, answer.characters, answer.text_color)
             circle.generate();
+            square.generate();
+            triangle.generate();
             console.log(circle.generate())
+            console.log(square.generate())
+            console.log(triangle.generate())
         })
 
 }
