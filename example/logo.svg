@@ -1,8 +1,8 @@
 
                 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
                     
-        <rect width="300" height="200"  fill="Blue" stroke="black" stroke-width="5"></rect>
-        <text x="150" y="100" font-size="75" text-anchor="middle" dominant-baseline="middle" font-style="italic" fill="White">JAH</text>
+        <rect width="300" height="200"  fill="Yellow" stroke="black" stroke-width="5"></rect>
+        <text x="150" y="100" font-size="75" text-anchor="middle" dominant-baseline="middle" font-style="italic" fill="Orange">XYZ</text>
         
                 </svg>
                 

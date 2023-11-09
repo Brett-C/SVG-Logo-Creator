@@ -1,5 +1,7 @@
 # SVG-Logo-Creator
 
+[Video Example](https://drive.google.com/file/d/1yxPthh-KwMpp3JHhfY_J9TfqAOA1wk-7/view)
+
 ## Description
 
 This is a simple console command line application that will take in 3 arguments and create a small logo in SVG format based on what the user puts in.
